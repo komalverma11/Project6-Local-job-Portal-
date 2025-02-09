@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Job Results</title>
+  
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: whitesmoke;
+      padding: 10px;
+      background-image: url("https://i.ibb.co/9kVKJ06q/Screenshot-20250209-101945-3.png");
+      background-position: center;
+     height: 100vh;
+     
+    }
+    .job-container {
+      max-width: 800px;
+      margin: auto;
+      background: white;
+      border: 2px solid black;
+      padding: 8px;
+      border-radius: 15px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    }
+    .job-item {
+      border-bottom: 1px solid #ddd;
+      padding: 20px;
+    }
+    .job-item:last-child {
+      border-bottom: none;
+    }
+    h2 {
+      background: yellow;
+      color: green;
+      display: block;
+      border-radius: 10px;
+      padding: 10px;
+    }
+    a {
+      text-decoration: none;
+      border: 2px solid red;
+      padding: 3px;
+      border-radius: 5px;
+      background: red;
+      color: white;
+     margin-left: 30px;
+    }
+  </style>
+</head>
+
+<body>
+  <a href="index.html">👈Back</a>
+  <a href="aboutme.html">👉 About me</a>
+  <h2 style="text-align:center;">Job Results</h2>
+  <div class="job-container" id="job-list"></div>
+
+  <script>
+    const jobResults = JSON.parse(localStorage.getItem("jobResults"));
+    const jobList = document.getElementById("job-list");
+
+    if (jobResults && jobResults.length > 0) {
+      jobResults.forEach(job => {
+        const jobItem = document.createElement("div");
+        jobItem.classList.add("job-item");
+
+        jobItem.innerHTML = ` 
+          <h3>${job.company}</h3>
+          <p><strong>District:</strong> ${job.district}</p>
+          <p><strong>Address:</strong> ${job.address}</p>
+          <p><strong>Work Type:</strong> ${job.workType}</p>
+          <p><strong>Qualification Required:</strong> ${job.qualification}</p>
+          <p><strong>Contact:</strong> ${job.contact.mobile}</p>
+          <p><strong>Job Description:</strong> ${job.description}</p>`
+        ;
+
+        jobList.appendChild(jobItem);
+      });
+    } else {
+      jobList.innerHTML = "<p>No matching jobs found.</p>";
+    }
+  </script>
+</body>
+</html>
