@@ -17,7 +17,7 @@
 
     .container {
       width: auto;
-      margin: 20px 20px;
+      margin: 15px 20px;
       text-align: center;
       border: 2px solid black;
       border-radius: 15px;
@@ -27,7 +27,7 @@
 
     select,
     button {
-      font-size: 16px;
+      font-size: 18px;
       padding: 10px;
       margin: 10px;
       border-radius: 5px;
