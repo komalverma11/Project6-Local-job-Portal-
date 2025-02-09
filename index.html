@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title> Woman </title>
+      <link rel="stylesheet" href="style.css" />
+
+</head>
+
+<body>
+
+  <div id="header">
+    <a class="home" href="">Home</a>
+    <h4> Contact for help</h4>
+    <a href="https://indianhelpline.com/women-helpline">
+      <img class="head-img" src="https://i.ibb.co/n8DpBhr/Copy-of-BLUE-TICK-ICON.png" alt="Verified Icon" border="0">
+    </a>
+  </div>
+
+  <div id="container">
+    <div id="main">
+      <img src="https://i.ibb.co/JnhWKnd/Screenshot-20250117-155814-2.png">
+      <h3> Know about all the people or organizations in Punjab helping in women and child safety </h3>
+    </div>
+
+    <div class="block-container">
+      <div class="filter-section">
+        <h6> Select District </h6>
+        <select id="district">
+          <option value="">--Select Districts--</option>
+          <option>Ludhiana</option>
+          <option>Jalandhar</option>
+          <option>Firozpur</option>
+          <option>Bathinda</option>
+          <option>Sangrur</option>
+          <option>Mansa</option>
+          <option>Pathankot</option>
+          <option>Gurdaspur</option>
+          <option> Tarn Taran Sahib </option>
+
+          <option>Hoshiarpur </option>
+
+          <option>Patiala </option>
+         
+          <option>Moga </option>
+          <option>Faridkot </option>
+          <!-- Add more districts here -->
+        </select>
+        <div class="btn">
+          <button id="red-btn">Search</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script>
+    const details = [
+      {
+        name: "Sh.Jitendra Jorwal IAS",
+        designation: "Deputy Commissioner Ludhiana",
+        phone: "01612403100",
+        address: "District Administrative Complex, Ferozepur Road, Ludhiana",
+        image: "https://i.ibb.co/2vqPkmY/Screenshot-20250119-114827-2.png",
+        link:"https://ludhiana.nic.in",
+      },
+      {
+        name: "Himanshu Aggarwal, IAS",
+        designation: "Deputy Commissioner Jalandhar",
+        phone: "0181-2224783",
+        address: "Office of the Deputy Commissioner District Administrative Complex Jalandhar.",
+        image: "https://i.ibb.co/frPjbTT/Screenshot-20250119-121255-2.png",
+        link:"https://jalandhar.nic.in",
+      },
+      {
+        name: "Smt. Deepshikha Sharma, IAS",
+        designation: "Deputy Commissioner Firozpur",
+        phone: "01632-244008",
+        address: "Deputy Commissioner District Administrative Complex, Firozpur, Punjab",
+        image: "https://i.ibb.co/sjDcwD3/Screenshot-20250119-121923-2.png",
+        link:"https://ferozepur.nic.in",
+      }, 
+      {
+        name: "Sh. Showkat Ahmad Parray, IAS",
+        designation: "Deputy Commissioner Bathinda",
+        phone: "91-164-2862100",
+        address: "Room No 214, Deputy Commissioner Office, District Administrative Complex, Bathinda",
+        image: "https://i.ibb.co/T1JZ30X/Screenshot-20250119-122435-2.png",
+        link:"https://bathinda.nic.in",
+    },
+      {
+        name: "Sh. Sandeep Rishi, IAS",
+        designation: "Deputy Commissioner Sangrur",
+        phone: "01672-234004",
+        address: "District Administrative Complex Sangrur",
+        image: "https://i.ibb.co/YWdYxKb/Screenshot-20250119-122805-2.png",
+        link:"https://sangrur.nic.in",
+    },
+      {
+        name: "Kulwant Singh, IAS",
+        designation: "Deputy Commissioner Mansa",
+        phone: "01652-227700",
+        address: "XCX6+X5C, Guru Gobind Singh Nagar, Mansa, Punjab 151505",
+        image: "https://i.ibb.co/Y3J4bMm/Screenshot-20250119-123638-2.png",
+        link:"https://mansa.nic.in",
+    },
+      {
+        name: "Dr. Sona Thind, IAS",
+        designation: "Deputy Commissioner,Fatehgarh Sahib",
+        phone: "01763-232215",
+        address: "Deputy Commissioner's Office, Fatehgarh Sahib Near Mini Secretariat, Fatehgarh Sahib, Punjab, India",
+        image: "https://i.ibb.co/sR4cMSC/Screenshot-20250119-125637-2.png",
+        link:"https://fatehgarhsahi.nic.in",
+    },
+      {
+        name: "Sh. Aditya Uppal , IAS",
+        designation: "Deputy Commissioner, Pathankot",
+        phone: "0186-2346464",
+        address: "Deputy Commissioner Office, Malikpur, Pathankot(145001), Punjab, INDIA",
+        image: "https://i.ibb.co/ZTQ3h5X/Screenshot-20250119-130331-2.png",
+        link:"https://pathankot.nic.in",
+    },
+      {
+        name: "Sh. Uma Shankar Gupta, IAS",
+        designation: "Deputy Commissioner Gurdaspur",
+        phone: "01874-247500",
+        address: "District Administration Complex ,Gurdaspur",
+        image: "https://i.ibb.co/2S0xXZ4/Screenshot-20250119-130636-2.png",
+        link:"https://gurdaspur.nic.in",
+    },
+      {
+        name: "Sh. Rahul, I.A.S.",
+        designation: "Deputy Commissioner, Tarn Taran Sahib",
+        phone: "01852-224101",
+        address: "District Administrative Complex, Harike Road, Tarn Taran, Punjab, Pin Code-143401",
+        image: "https://i.ibb.co/TLc1RQN/Screenshot-20250119-131124-2.png",
+        link:"https://tarntaran.nic.in",
+    },
+    {
+      name: "Smt. Komal Mittal, IAS",
+      designation: "Office of Deputy Commissioner, Hoshiarpur",
+      phone: "01882220301",
+      address: "District Administrative Complex, Hoshiarpur-146001",
+      image: "https://i.ibb.co/yBD23Q2/Screenshot-20250119-142025-2.png",
+      link: "https://hoshiarpur.nic.in",
+    },
+    {
+      name: "Dr Preeti Yadav, IAS",
+      designation: "Deputy Commissioner,Patiala",
+      phone: "0175-2311300",
+      address: "District Administrative Complex Patiala – 147001",
+      image: "https://i.ibb.co/nws5RdR/Screenshot-20250119-142500-2.png",
+     link: "https://patiala.nic.in",
+    },
+    {
+      name: "Sh. Vishesh Sarangal, IAS",
+      designation: "Deputy Commissioner,Moga",
+      phone: "01636-234400",
+     address: "District Administrative Complex, Mini Secretariat, Moga-142001",
+     image: "https://i.ibb.co/x1xLqgn/Screenshot-20250119-142831-2.png",
+     link: "https://moga.nic.in",
+    },
+    {
+      name: "Shri Vineet Kumar, I.A.S.",
+      designation: "Deputy Commissioner Faridkot",
+      phone: "01639-251051",
+      address: "Railway Road Mini Sector 8, Garden Colony, Faridkot, Punjab 151203",
+     image: "https://i.ibb.co/ZMFGHCm/Screenshot-20250119-144045-2.png",
+     link: "https://faridkot.nic.in",
+    },
+    ];
+
+    const redBtn = document.getElementById("red-btn");
+    const districtDropdown = document.getElementById("district");
+
+    redBtn.addEventListener("click", () => {
+      const selectedDistrict = districtDropdown.value;
+
+      if (!selectedDistrict) {
+        alert("Please select a district.");
+        return;
+      }
+
+      const filteredData = details.filter(
+        (item) => item.designation.includes(selectedDistrict)
+      );
+
+      if (filteredData.length > 0) {
+        localStorage.setItem("selectedDistrictData", JSON.stringify(filteredData));
+        window.location.href = "result.html";
+      } else {
+        alert("No data available for the selected district.");
+      }
+    });
+  </script>
+</body>
+
+</html>
