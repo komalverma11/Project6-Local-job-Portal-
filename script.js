@@ -28,10 +28,10 @@ const jobs = [
       },
       {
         company: "Chandigarh Electronics Pvt. Ltd.",
-        district: "Mohali",
+        district: "Patiala",
         address: "Electronics Park, Mohali, Punjab",
         workType: "Electronics and Hardware Engineering",
-        qualification: "Diploma",
+        qualification: "Degree",
         contact: { email: "support@chandigarhelectronics.com", mobile: "+91 99887 65432" },
         description: "Repairing and maintaining electronic devices and systems for the company."
       },
