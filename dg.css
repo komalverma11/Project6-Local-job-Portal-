@@ -43,9 +43,10 @@
 a {
       text-decoration: none;
       border: 2px solid green;
-      padding: 3px;
+      padding: 5px;
       border-radius: 5px;
       background: green;
-      color: white;     
+      color: white;  
+   font-size: 20px;
 }
   
