@@ -40,14 +40,12 @@
       border: none;
       cursor: pointer;
     }
-
 a {
       text-decoration: none;
       border: 2px solid green;
       padding: 3px;
       border-radius: 5px;
       background: green;
-      color: white;
-     
+      color: white;     
 }
   
