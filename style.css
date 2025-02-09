@@ -1,0 +1,128 @@
+
+    /* Add your styles here */
+    * {
+      margin: 0;
+      padding: 0;
+      text-decoration: none;
+    }
+
+    .head-img {
+      height: 50px;
+      weight: 50px;
+    }
+
+    #header {
+      border: 4px solid black;
+      border-radius: 15px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-right: 6px;
+      margin-top: 2px;
+      margin-left: 6px;
+      margin-bottom: 2px;
+      min-width: 95%;
+      background: black;
+      color: white;
+      padding-left: 2px;
+    }
+
+    #container {
+      font-family: Tahoma,Verdana, Sans-serif;
+      border: 2px solid black;
+      border-radius: 10px;
+      margin: 10px auto;
+      margin-top: 2px;
+      width: 85%;
+      height: auto;
+      padding: 20px;
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+      background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+
+    }
+
+    img {
+      height: 250px;
+      weight: 250px;
+      display: flex;
+      align-self: center;
+      justify-self: center;
+      border-radius: 50%;
+      border: 2px solid grey;
+    }
+
+    h3 {
+      font-size: 20px;
+      font-weight: bold;
+      text-align: center;
+      margin-bottom: 20px;
+      color: #333;
+      margin-top: 10px;
+    }
+
+    .main-img {
+      height: 50px;
+      weight: 50px
+    }
+
+    .block-container {
+      background-color: #FFFFFFFF;
+      box-shadow: 2px 2px 5px;
+      padding: 30px;
+      border-radius: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin: 20px auto;
+      width: 70%;
+      max-width: 400px;
+    }
+
+    #district {
+      width: 100%;
+      padding: 10px;
+      border-radius: 10px;
+      margin-bottom: 20px;
+      border: 1px solid grey;
+      font-size: 16px;
+      background: white;
+    }
+
+    .home {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    #red-btn {
+      border-radius: 8px;
+      padding: 5px 10px;
+      font-size: 18px;
+      background: red;
+      font-weight: bold;
+      color: white;
+      border: 2px solid red;
+      cursor: pointer;
+
+    }
+
+    .btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    #red-btn:hover {
+      background: darkred;
+    }
+
+    h6 {
+      font-size: 15px;
+    }
+
+    .filter-section {
+      width: 100%;
+
+    }
+  
