@@ -54,6 +54,78 @@ const jobs = [
         contact: { email: "careers@mohaliconstruction.com", mobile: "+91 99876 54321" },
         description: "Overseeing construction projects, ensuring the safety and quality of buildings and infrastructure."
   },
+     {
+    company: "Hoshiarpur Logistics Ltd.",
+    district: "Hoshiarpur",
+    address: "Logistics Center, Hoshiarpur, Punjab",
+    workType: "Warehouse Manager",
+    qualification: "Degree",
+    contact: {
+      email: "jobs@hoshiarpurlogistics.com",
+      mobile: "+91 99887 66789"
+    },
+    description: "Managing warehouse inventory, coordinating shipments, and ensuring smooth logistics operations."
+},
+  {
+    company: "Ropar Pharmaceuticals Ltd.",
+    district: "Rupnagar",
+    address: "Pharma Industrial Estate, Rupnagar, Punjab",
+    workType: "Pharmacist",
+    qualification: "Degree",
+    contact: {
+      email: "jobs@roparpharma.com",
+      mobile: "+91 98976 44532"
+    },
+    description: "Managing medicines, dispensing prescriptions, and advising patients.",
+},
+  {
+    company: "Gurdaspur Education Society",
+    district: "Gurdaspur",
+    address: "Academic Lane, Gurdaspur, Punjab",
+    workType: "School Principal",
+    qualification: "Degree",
+    contact: {
+      email: "principaljobs@gurdaspurschools.com",
+      mobile: "+91 97765 33445"
+    },
+    description: "Leading school operations, managing staff, and ensuring academic excellence."
+},
+  {
+    company: "Hoshiarpur Fashion Studios",
+    district: "Hoshiarpur",
+    address: "Designer Studio, Hoshiarpur, Punjab",
+    workType: "Textile Designer",
+    qualification: "Diploma",
+    contact: {
+      email: "careers@hoshiarpurfashion.com",
+      mobile: "+91 99888 11223"
+    },
+    description: "Designing fabrics, creating patterns, and collaborating with manufacturers."
+},
+  {
+    company: "Ropar Event Management Group",
+    district: "Rupnagar",
+    address: "Event Planning Hub, Rupnagar, Punjab",
+    workType: "Event Coordinator",
+    qualification: "Diploma",
+    contact: {
+      email: "jobs@roparevents.com",
+      mobile: "+91 98766 88990"
+    },
+    description: "Organizing and executing events, managing vendors, and handling client requirements."
+},
+  {
+    company: "Gurdaspur Digital Studios",
+    district: "Gurdaspur",
+    address: "Media Lane, Gurdaspur, Punjab",
+    workType: "Graphic Designer",
+    qualification: "Diploma",
+    contact: {
+      email: "hr@gurdaspurdigital.com",
+      mobile: "+91 98777 55432"
+    },
+    description: "Creating visual content, designing logos, and collaborating on marketing campaigns."
+}, 
       {
         company: "Punjab State Transportation Corporation",
         district: "Jalandhar",
