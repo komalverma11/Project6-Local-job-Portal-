@@ -126,6 +126,175 @@ const jobs = [
     },
     description: "Creating visual content, designing logos, and collaborating on marketing campaigns."
 }, 
+{
+company: "Guru Nanak Charitable Hospital",
+district: "Ludhiana",
+address: "Dehlon, Ludhiana, Punjab",
+workType: "Receptionist/Administrative Assistant",
+qualification: "12th pass",
+contact:{
+email: "hr@gnchospital.com",
+mobile: "+91 98765 43210"
+},
+description: "Managing front desk, welcoming visitors, handling calls, and other administrative tasks."
+},
+{
+company: "NFCI Hotel Management & Culinary Institute",
+district: "Patiala",
+address: "Patiala, Punjab",
+workType: "Front Office Executive (Receptionist)",
+qualification: "12th pass",
+contact:{
+email: "info@nfcihospitality.com",
+mobile: "+91 87654 32109"
+},
+description: "Managing the front desk, welcoming guests, handling calls, and maintaining records."
+},
+{
+company: "Shri Shyam Agency",
+district: "Amritsar",
+address: "Amritsar, Punjab",
+workType: "Hotel Receptionist",
+qualification: "12th pass", 
+contact:{
+email: "contact@shreeshyamagency.com",
+mobile: "+91 99887 65432"
+},
+description: "Managing front desk, assisting guests with check-in/check-out, and maintaining hotel records."
+},
+{
+company: "NFCI",
+district: "Hoshiarpur",
+address: "Hoshiarpur, Punjab",
+workType: "Receptionist & Telecaller",
+qualification: "12th pass", 
+contact:{
+email: "careers@nfcihospitality.com",
+mobile: "+91 98765 43211",
+},
+description: "Handling telephone calls, welcoming visitors, and other administrative work."
+},
+{
+company: "Job Matchmakers",
+district: "Mohali",
+address: "Mohali, Punjab",
+workType: "Front Desk Receptionist",
+qualification: "12th pass", 
+contact:{
+email: "info@jobmatchmakers.com",
+mobile: "+91 87654 32110",
+},
+description: "Managing the front desk, welcoming visitors, handling calls, and other administrative tasks."
+},
+{
+company: "Bathinda Hospitality Pvt. Ltd.",
+district: "Bhatinda",
+address: "Hotel Royal, Bathinda, Punjab",
+workType: "Hotel Receptionist",
+qualification: "12th pass", 
+contact:{
+email: "hr@bathindahotel.com",
+mobile: "+91 96543 76543",
+},
+description: "Managing front desk, assisting guests with check-in/check-out, and maintaining hotel records."
+},
+    {
+company: "The White Solitaire",
+district: "Ludhiana",
+address: "Ludhiana, Punjab",
+workType: "Hotel Receptionist",
+qualification: "10th pass",
+contact:{
+email: "info@whitesolitaire.com",
+mobile: "+91 98765 43210"
+},
+description: "Greet all guests and assist them with check-in and check-out; respond to all guest questions and requests; answer and forward phone calls."
+},
+{
+company: "Hotel Grand",
+district: "Patiala",
+address: "Patiala, Punjab",
+workType: "Hotel Receptionist",
+qualification: "10th pass",
+contact:{
+email: "hr@hotelgrandpatiala.com",
+mobile: "+91 87654 32109"
+},
+description: "Managing front desk operations, assisting guests during check-in and check-out, and maintaining guest records."
+},
+{
+company: "Hotel City Inn",
+district: "Amritsar",
+address: "Amritsar, Punjab",
+workType: "Hotel Receptionist",
+qualification: "10th pass",
+contact:{
+email: "contact@hotelcityinn.com",
+mobile: "+91 99887 65432"
+},
+description: "Handling guest check-ins and check-outs, answering phone calls, and providing information about hotel services."
+},
+{
+company: "Hotel Comfort Stay",
+district: "Hoshiarpur",
+address: "Hoshiarpur, Punjab",
+workType: "Hotel Receptionist",
+qualification: "10th pass",
+contact:{
+email: "info@hotelcomfortstay.com",
+mobile: "+91 98765 43211"
+},
+description: "Welcoming guests, managing reservations, and addressing guest inquiries."
+},
+{
+company: "Hotel Sunrise",
+district: "Gurdaspur",
+address: "Gurdaspur, Punjab",
+workType: "Hotel Receptionist",
+qualification: "10th pass",
+contact:{
+email: "hr@hotelsunrisegurdaspur.com",
+mobile: "+91 91234 56789"
+},
+description: "Managing front desk activities, assisting guests with check-in/check-out processes, and handling guest queries."
+},
+{
+company: "Hotel Elite",
+district: "Mohali",
+address: "Mohali, Punjab",
+workType: "Hotel Receptionist",
+qualification: "10th pass",
+contact:{
+email: "contact@hotelelitemohali.com",
+mobile: "+91 87654 32110"
+},
+description: "Overseeing front desk operations, welcoming guests, and managing bookings."
+},
+{
+company: "Hotel Royal Palace",
+district: "Bhatinda",
+address: "Bathinda, Punjab",
+workType: "Hotel Receptionist",
+qualification: "10th pass",
+contact:{
+email: "hr@hotelroyalpalace.com",
+mobile: "+91 96543 76543"
+},
+description: "Handling guest check-ins and check-outs, managing reservations, and providing customer service."
+},
+{
+company: "Hotel River View",
+district: "Rupnagar",
+address: "Rupnagar, Punjab",
+workType: "Hotel Receptionist",
+qualification: "10th pass",
+contact:{
+email: "info@hotelriverview.com",
+mobile: "+91 91234 56780"
+},
+description:"Overseeing front desk operations, welcoming guests, and managing bookings."
+},  
+      
       {
         company: "Punjab State Transportation Corporation",
         district: "Jalandhar",
